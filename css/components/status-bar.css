@@ -32,3 +32,22 @@
 .status-bar__column .fa-battery-quarter {
     margin: 0px 5px;
 }
+
+.screen-header,
+.status-bar {
+    top: 0;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+.status-bar {
+    z-index: 3;
+}
+
+.screen-header {
+    top: 10px;
+    z-index: 2;
+    margin-top: 16px;
+}

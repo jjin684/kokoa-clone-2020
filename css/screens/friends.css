@@ -47,4 +47,9 @@
     font-size: 128px;
     animation: hideSplshScreen 0.3s ease-in-out forwards;
     animation-delay: 1.5s;
+    z-index: 4;
+}
+
+.friends-screen {
+    margin-top: 120px;
 }
